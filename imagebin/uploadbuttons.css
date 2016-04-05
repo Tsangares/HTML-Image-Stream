@@ -1,0 +1,56 @@
+body{
+    font-family: sans-serif;
+    color: #FFF;
+    font-size: 4vmin; 
+    background-color: #1a237e;
+    text-align: center;
+}
+.img{
+    max-width: 100%;
+}
+/* Necessary Button Style */
+.remove{
+    opacity: 0;
+    height: 0;
+    width: 0;
+    position: absolute;
+}
+
+/* Swaggy Button Style */
+/* Please note there is 3 colors at the beginning of the style */
+
+/* Button unpressed */
+.will{
+    background-color: #3f51b5; /* Medium Shade */
+    margin: 2vmin;
+    text-decoration: none;
+    display: inline-block;
+    
+    color: #FFF !important;
+    text-align: center !important;
+    font-size: 3vmin !important;
+    border-radius: .5vmin !important;
+    padding: 1vmin;
+    box-shadow: 0px 2px 0px #111;
+    transition: all .4s;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Mouse over button */
+.will:hover{
+    background-color: #9fa8da; /* Lighter Shade */
+    color: #CCC;
+}
+
+/* Button pressed */
+.will:active{
+    background-color: #3949ab; /* Darker Shade */
+    transform: translateY(2px);
+    color: #AAA;
+    box-shadow: 0px 0px 0px #111;
+}
