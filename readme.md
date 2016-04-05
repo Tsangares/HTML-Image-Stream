@@ -14,11 +14,11 @@ This code only uses html, css and php. No javascript :)
 I supplied a foldes called `/imagebin` Drop this folder onto your domain and link to it.
 
 Here is an explaination for the files inside:
-- index.php
+- **index.php**
 	+ contains a uploader, and a display function that pulls images from the `/imagebin/images` folder.
-- loadall.php
+- **loadall.php**
 	+ this is the code that loads all of the images from `/imagebin/images` in order of the most recent is at the top.
-- upload.php
+- **upload.php**
 	+ this file is called when the forum is submitted. It takes png, jpg, jpeg, and gif files and puts them as the same name into the folder images. Edit this if you want to restrict the images being uploaded and where you want them to go. 
 
 
